@@ -1,25 +1,20 @@
-# 5e SRD
-This is a markdown version of the 5th Edition System Reference Document.
+# SRD 5.1
 
-Documents are in the docs/ directory.
+# Тема
 
-Published as a website built via mkdocs on https://5thsrd.org
-
-# Theme
-
-# Plugins
+# Плагины
 
 
 
-# How to Build
-## Build indexes
+# Как построить
+## Построить индексы
 
-Various indexes are built using build_indexes.py.
+Индексы строятся с помощью build_indexes.py.
 
-## Build cleam
+## Чистое построение
 
-Build the full site using mkdocs (http://www.mkdocs.org/): mkdocs build --clean
+Построить весь сайт с помощью [mkdocs](http://www.mkdocs.org/): mkdocs build --clean
 
-## Deploy
+## Разместить
 
 ```mkdocs gh-deploy```
