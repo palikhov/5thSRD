@@ -1,9 +1,8 @@
-site_name: 5th Edition SRD
-site_url: https://5thsrd.org
-repo_url: https://github.com/vitusventure/5thSRD
+site_name: SRD 5.1
+site_url: https://palikhov.github.com/5ethsrd-mkdocs/
+repo_url: https://palikhov.github.com/5ethsrd-mkdocs/
 copyright: Rules provided by Wizards of the Coast under the <a href="/license/">OGL 1.0a</a>.
-site_description: A web-based version of the 5th Edition SRD (System Reference Document)
-google_analytics: ["UA-72655850-1", '5thsrd.org']
+site_description: Веб версия справочного документа 5.1
 site_dir: 5thsrd_offline
 use_directory_urls: false
 theme:
@@ -17,5 +16,5 @@ plugins:
         on_pre_build: "plugins.css_minifier:generate_inline_css"
   - section-index
 extra:
-  enable_snigel_ads: no
+  enable_snigel_ads: yes
   enable_ga: no
