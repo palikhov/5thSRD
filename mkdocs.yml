@@ -2,7 +2,7 @@ site_name: SRD 5.1
 site_url: https://palikhov.github.com/5ethsrd-mkdocs/
 repo_url: https://palikhov.github.com/5ethsrd-mkdocs/
 copyright: Rules provided by Wizards of the Coast under the <a href="/license/">OGL 1.0a</a>.
-site_description: Веб версия справочного документа 5.1
+site_description: Веб-версия справочного документа 5.1
 theme:
   name: null
   color: "rgb(216, 25, 33)" # Match with @brand-primary in variables.less
